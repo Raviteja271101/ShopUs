@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <title>Payment successful</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    body{
+        margin-top: 100px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    p a{
+        text-decoration: none;
+        color: blue;
+    }
+</style>
+<body>
+    <h1>Congratulations your order has been placed successfully. Thank You for shopping.</h1>
+    <img src="./images/successful.png" alt="">
+    <p>For more shopping <a href="./Home.html"> Click here.</a></p>
+</body>
+<script>
+    window.onload = function () {
+    localStorage.removeItem("arrData")
+}
+</script>
+</html>
